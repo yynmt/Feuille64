@@ -305,8 +305,10 @@ KailhソケットはメインPCBに密着するようにしてください。
 この手順を省略することはできません。
 必ず行ってください。
 
-　もし気の迷いでFeuille64をMIDIパッドとして利用されるのであれば、以降の手順でファームウェアの書き込みを行ってください。
-初期状態では動作確認用のテストファームウェアが書き込まれているためMIDIパッドとしては動作しません。
+　でもちょっと待ってください。
+きっとお気付きだとは思いますが、実はそのFeuille64はそのままではMIDIパッドとして動作しません。
+初期状態では動作確認用のテストファームウェアが書き込まれているからです。
+以降の手順でファームウェアの書き込みを行ってください。
 
 ---
 
@@ -340,7 +342,7 @@ KailhソケットはメインPCBに密着するようにしてください。
 その穴へSIMピンなどを挿入してリセットボタンを押すことができます。
 PCにUSB Type-Cケーブルで接続した状態でリセットボタンを押すと、Feuille64がDFU(Device Firmware Upgrade)で接続されます。
 
-![](../images/buildguide_04-a-01_01.png)
+![](../images/buildguide_04-a-01-01.png)
 
 ---
 
@@ -349,7 +351,7 @@ PCにUSB Type-Cケーブルで接続した状態でリセットボタンを押�
 そして`MCU(AVR Only)`を`atmega32u4`に変更します。
 基本的な設定は以上です。
 
-![](../images/buildguide_04-a-02_01.png)
+![](../images/buildguide_04-a-02-01.png)
 
 ---
 
@@ -363,7 +365,7 @@ PCにUSB Type-Cケーブルで接続した状態でリセットボタンを押�
 *** Atmel DFU device connected (libusb0): Atmel Corporation ATmega32U4 (03EB:2FF4:0000)
 ```
 
-![](../images/buildguide_04-a-02_02.png)
+![](../images/buildguide_04-a-02-02.png)
 
 ---
 
@@ -373,7 +375,7 @@ PCにUSB Type-Cケーブルで接続した状態でリセットボタンを押�
 ファームウェアの書き込み中はFeuile64本体およびUSBケーブルには触れないようご注意ください。
 ファームウェアの書き込みが完了したら自動的にDFUでの接続が解除されます。
 
-![](../images/buildguide_04-a-02_03.png)
+![](../images/buildguide_04-a-02-03.png)
 
 ---
 
@@ -386,3 +388,13 @@ PCにUSB Type-Cケーブルで接続した状態でリセットボタンを押�
 
 - [QMK Firmware 日本語ドキュメント](https://docs.qmk.fm/#/ja/)
 - [QMK GitHub 公式リポジトリ](https://github.com/qmk/qmk_firmware/)
+
+---
+
+## 5. 完成
+　今度こそようやく完成です。
+最高にかっこいいMIDIパッドができあがったのではないでしょうか。
+ファームウェアを自由にカスタマイズできるあなただけのMIDIパッドです。
+世界に1台だけのMIDIパッドでかっこよく演奏してみましょう。
+
+![](../images/buildguide_05-01-01.jpg)
