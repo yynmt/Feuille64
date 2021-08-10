@@ -395,9 +395,11 @@ PCにUSB Type-Cケーブルで接続した状態でリセットボタンを押�
 キーレイアウトなどのFeuille64の動作すべてを独自にカスタマイズして利用したい場合は、こちらを行ってください。
 お使いのPCによって手順が大きく異なるため、詳しい説明は省略します。
 以下のリンクを参考にご自身で進めてください。
+なお、現在Feuille64のコードはQMKの公式リポジトリへマージされていません。
 
 - [QMK Firmware 日本語ドキュメント](https://docs.qmk.fm/#/ja/)
 - [QMK GitHub 公式リポジトリ](https://github.com/qmk/qmk_firmware/)
+- [QMK Github Feuille64ブランチ](https://github.com/yynmt/qmk_firmware/tree/feuille64)
 
 ---
 
