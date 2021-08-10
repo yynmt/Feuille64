@@ -408,3 +408,5 @@ PCにUSB Type-Cケーブルで接続した状態でリセットボタンを押�
 世界に1台だけのMIDIパッドでかっこよく演奏してみましょう。
 
 ![](../images/buildguide_05-01-01.jpg)
+
+本ビルドガイドは[Acperience70](http://yynmt.com/kb/a70.html)で書かれました。
