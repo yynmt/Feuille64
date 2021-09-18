@@ -338,11 +338,24 @@ Kailhソケットは左右反転した状態でも実装できてしまいます
 ---
 
 ##### hexファイルのダウンロード
+　使用したいファームウェアのhexファイルをダウンロードして準備してください。
 
-　以下にビルド済みのhexファイルがあります。
-使用したいバージョンのhexファイルをダウンロードして準備してください。
+###### Feuille64標準ファームウェア
+　Feuille64標準のファームウェアです。
+MIDIパッドとして動作します。
+- [hexファイル](https://github.com/yynmt/Feuille64/tree/main/hex)
 
-- [hexファイル](../hex/)
+###### Feuille64 MIDI Arpeggiator
+　[hsgw](https://twitter.com/hsgw)さんが作成された[polygome](https://github.com/monome-community/polygome)ライクなMIDIアルペジエータとして動作するファームウェアです。
+- [hexファイル](https://github.com/hsgw/feuille64-midi/tree/build)
+- [マニュアル](https://github.com/hsgw/Feuille64-MIDI/blob/main/docs/feuille64_MIDI_Firmware_manual_jp.md)
+- [ソースコード](https://github.com/hsgw/feuille64-midi)
+
+###### Feuille64 GRID Firmware
+　[hsgw](https://twitter.com/hsgw)さんが作成された[monome grid](https://monome.org/docs/grid/)クローンとして動作するファームウェアです。
+- [hexファイル](https://github.com/hsgw/feuille64_grid/releases)
+- [チュートリアル](https://github.com/hsgw/feuille64_grid/blob/docs/readme.md)
+- [ソースコード](https://github.com/hsgw/feuille64_grid)
 
 ---
 
