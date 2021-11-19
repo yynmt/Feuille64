@@ -347,6 +347,14 @@ Kailhソケットは左右反転した状態でも実装できてしまいます
 MIDIパッドとして動作します。
 - [hexファイル](https://github.com/yynmt/Feuille64/tree/main/hex)
 
+###### Remap対応ファームウェア  <img src="../images/icon_ossm.png" height="16px">
+　Remapに対応したファームウェアです。
+各キーの動作をブラウザ上から自由にカスタマイズすることができます。
+現在のバージョンでは一時的にロータリーエンコーダの回転動作が無効化されています。
+
+- [Remap](https://remap-keys.app/)
+- [hexファイル](https://github.com/yynmt/Feuille64/tree/main/hex)
+
 ###### Feuille64 MIDI Arpeggiator  <img src="../images/icon_ossm.png" height="16px">
 　[hsgw](https://twitter.com/hsgw)さんが作成された[polygome](https://github.com/monome-community/polygome)ライクなMIDIアルペジエータとして動作するファームウェアです。
 - [hexファイル](https://github.com/hsgw/feuille64-midi/tree/build)
