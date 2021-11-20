@@ -350,7 +350,6 @@ MIDIパッドとして動作します。
 ###### Remap対応ファームウェア  <img src="../images/icon_ossm.png" height="16px">
 　Remapに対応したファームウェアです。
 各キーの動作をブラウザ上から自由にカスタマイズすることができます。
-現在のバージョンでは一時的にロータリーエンコーダの回転動作が無効化されています。
 
 - [Remap](https://remap-keys.app/)
 - [hexファイル](https://github.com/yynmt/Feuille64/tree/main/hex)
