@@ -346,6 +346,7 @@ Kailhソケットは左右反転した状態でも実装できてしまいます
 　Feuille64標準のファームウェアです。
 MIDIパッドとして動作します。
 - [hexファイル](https://github.com/yynmt/Feuille64/tree/main/hex)
+- [マニュアル](fw_manual_jp.md)
 
 ###### Remap対応ファームウェア  <img src="../images/icon_ossm.png" height="16px">
 　Remapに対応したファームウェアです。
